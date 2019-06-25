@@ -1,3 +1,2 @@
 FROM scratch
-ADD hello /
-CMD ["/hello"]
+ENTRYPOINT echo "hello Docker"
